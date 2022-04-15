@@ -1,0 +1,61 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "crud-exess-typescript",
+  "dateExported": "2022-04-15T05:30:23.218Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "f5b38fbb-6bdb-45df-80a5-acbbaac679da",
+      "colId": "4f726d59-66ee-4631-a6c1-b624dea498cf",
+      "containerId": "",
+      "name": "Get All Entry",
+      "url": "http://localhost:3000/api/diaries/",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-04-15T05:23:30.047Z",
+      "modified": "2022-04-15T05:28:55.121Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "bae94a46-58e5-4eac-b182-c87663ff975f",
+      "colId": "4f726d59-66ee-4631-a6c1-b624dea498cf",
+      "containerId": "",
+      "name": "Post New Entry",
+      "url": "http://localhost:3000/api/diaries",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2022-04-15T05:23:55.561Z",
+      "modified": "2022-04-15T05:23:55.561Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"date\":\"2016-06-06\",\n    \"weather\": \"sunny\",\n    \"visibility\":\"poor\",\n    \"comment\": \"awesome dat\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "74901d99-dc8f-44b4-8e72-22aa24f809a6",
+      "colId": "4f726d59-66ee-4631-a6c1-b624dea498cf",
+      "containerId": "",
+      "name": "Get By Id",
+      "url": "http://localhost:3000/api/diaries/1",
+      "method": "GET",
+      "sortNum": 30000,
+      "created": "2022-04-15T05:28:13.982Z",
+      "modified": "2022-04-15T05:28:13.982Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"date\":\"2016-06-06\",\n    \"weather\": \"sunny\",\n    \"visibility\":\"poor\",\n    \"comment\": \"awesome dat\"\n}",
+        "form": []
+      },
+      "tests": []
+    }
+  ]
+}
